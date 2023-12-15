@@ -35,4 +35,5 @@ jobs:
           mkdir demofolder
           cd demofolder
           touch test.txt
+          aws sts get-caller-identity
           
